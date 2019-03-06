@@ -41,12 +41,21 @@
     </nav>     
     
     <form action="https://formspree.io/sw2345@mac.com" method="POST">
+
+        <!-- visible -->
         <label for="name">Name</label>
         <input type="text" name="name">
 
         <label for="_replyto">Email</label>
         <input type="email" name="_replyto">
+
+        <label for="comments">Comments</label>
+        <textarea name="comments" id="" cols="30" rows="10"></textarea>
         <input type="submit" value="Send">
+
+        <!-- hidden -->
+        <input type="hidden" name="_next" value="/"/>
+
       </form> 
 
     <!-- jQuery Library via CDN -->
