@@ -9,4 +9,16 @@ body {
   outline: 1px dotted black;
 }
 
-/* Your Awesome Scripts */
+/* Portfolio Styling */
+.lg-backdrop {
+  background-color: #555;
+}
+
+.lg-toolbar {
+  background-color: white;
+}
+
+img.lg-object.lg-image {
+  border-radius: 5%;
+  outline: 0;
+}
