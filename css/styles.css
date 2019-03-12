@@ -2,11 +2,12 @@
   DIAGNOSTIC STYLING
 */
 body {
-  background: gray;
+  background: black;
 }
 
 * {
-  outline: 1px dotted black;
+  outline: 1px dotted grey;
+  color: white;
 }
 
 /* Portfolio Styling */
@@ -22,3 +23,66 @@ img.lg-object.lg-image {
   border-radius: 5%;
   outline: 0;
 }
+
+body {
+  background-color: black;
+  margin: 5%;
+  /* font-family: 'Cutive Mono', monospace; */
+  font-family: 'Philosopher', sans-serif;
+}
+
+h1 {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h3 {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h1, h3, nav, a {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#nav li {
+  position: relative;
+  display: inline;
+  padding: 17px;
+  min-width: 40px;
+  text-align: center;
+  font-size: 14px;
+}
+
+#nav {
+  display: block;
+}
+
+nav {
+  float: right;
+  margin-bottom: 1em;
+}
+
+/* form styles */
+#formcomment{
+  color: grey;
+}
+
+text-area, input {
+  color: grey;
+  margin: 2%;
+  border-radius: 5%;
+} 
+
