@@ -22,6 +22,8 @@ body {
   margin: 5%;
   /* font-family: 'Cutive Mono', monospace; */
   font-family: 'Philosopher', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
   color: #a7bdd3;
 }
 
@@ -58,6 +60,8 @@ h3 {
 
 h1, h3, nav, a {
   color: white;
+  /* color: #a7bdd3; */
+
 }
 
 a {
@@ -112,18 +116,18 @@ text-area, input {
 
 #footer {
   position: relative;
-  height: 130px;
   width: 100%;
   color: #a7bdd3;
+  text-align: center;
 }
 
 p.copyright {
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
-  line-height: 40px;
+  line-height: 20px;
   font-size: 0.8em;
   text-align: center;
-  bottom:0;
+  /* bottom: 0px; */
 }
 
 .footer-icon {
@@ -132,8 +136,14 @@ p.copyright {
   margin-left: 0px;
 }
 
-a.social-link img {
+a.social-link svg {
   width: 55px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer-div {
+
 }
 
 div.div-border {
