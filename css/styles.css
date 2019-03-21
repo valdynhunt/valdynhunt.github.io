@@ -3,7 +3,7 @@
 ***************************************/
 
 * {
-  outline: 0px dotted grey;
+  outline: 1px dotted grey;
 }
 
 /**************************************
@@ -66,6 +66,7 @@ h1, h3, nav, a {
 
 a {
   text-decoration: none;
+  padding-bottom: 7px;
 }
 
 ul {
@@ -79,6 +80,7 @@ ul {
   min-width: 40px;
   text-align: center;
   font-size: 14px;
+  transition: color 1s;
 }
 
 #nav {
@@ -90,9 +92,19 @@ nav {
   margin-bottom: 1em;
 }
 
-#nav ul li:hover {
-  background: #1c1c1c;
-  color: red;  /* or whatever */
+#nav li a:hover {
+  /* background: #1c1c1c; */
+  color: #a7bdd3;  /* or whatever */
+}
+
+
+body#home a#homenav,
+body#about a#aboutnav,
+body#portfolio a#portfolionav,
+body#contact a#contactnav {
+	color: #a7bdd3;
+  border-bottom: 1px solid #a7bdd3;
+
 }
 
 /**************************************
@@ -109,6 +121,27 @@ text-area, input {
   border-radius: 5%;
 } 
 
+/**************************************
+*            BUTTON STYLES            *
+***************************************/
+.btn {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+  line-height: 1.4;
+  transition: 0.3s;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.btn.btn-primary {
+  background: #a7bdd3;
+  color: #000;
+  border: 1px solid transparent;
+}
 
 /**************************************
 *                FOOTER                *

@@ -59,7 +59,6 @@ $('#gallery-7').lightGallery({
 });
 
 
-
 // Controls for Views
 $('#grid').click( function(){
   
@@ -81,7 +80,3 @@ $('#list').click( function(){
 
 
 // List View
-
-
-// nav color
-$('#nav li:hover').addClass("navColor");
