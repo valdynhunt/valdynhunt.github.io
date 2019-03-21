@@ -86,3 +86,40 @@ text-area, input {
   border-radius: 5%;
 } 
 
+
+
+
+
+
+
+body {
+  padding: 2em;
+}
+
+section {
+  background: rosybrown;
+  margin: 1em;
+  width: 300px;
+}
+
+.grid section,
+.list section {
+  animation: jello .5s;
+}
+
+
+/* Default, Grid View Styling */
+.grid section h2,
+.grid section p {
+  display: none;
+}
+
+/* List View */
+.list section img {
+  display: none;
+}
+
+.list section {
+  width: 600px;
+}
+
