@@ -3,24 +3,33 @@
 */
 body {
   background: black;
+  /* color: white; */
+  color: #a7bdd3;
 }
 
 * {
-  outline: 1px dotted grey;
-  color: white;
+  outline: 0px dotted grey;
 }
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 
 /* Portfolio Styling */
 .lg-backdrop {
-  background-color: #555;
+  background-color: black;
 }
 
 .lg-toolbar {
-  background-color: white;
+  background-color: black;
 }
 
 img.lg-object.lg-image {
-  border-radius: 5%;
+  border-radius: 1%;
   outline: 0;
 }
 
@@ -75,6 +84,11 @@ nav {
   margin-bottom: 1em;
 }
 
+#nav ul li:hover {
+  background: #1c1c1c;
+  color: red;  /* or whatever colour you want */
+}
+
 /* form styles */
 #formcomment{
   color: grey;
@@ -87,7 +101,25 @@ text-area, input {
 } 
 
 
+/**************************************
+*                FOOTER                *
+***************************************/
 
+#footer {
+  position: relative;
+  height: 130px;
+  width: 100%;
+  color: #a7bdd3;
+}
+
+p.copyright {
+  position: absolute;
+  width: 100%;
+  line-height: 40px;
+  font-size: 0.8em;
+  text-align: center;
+  bottom:0;
+}
 
 
 
@@ -121,5 +153,10 @@ section {
 
 .list section {
   width: 600px;
+}
+
+.portfolio img {
+  width: 150px;
+  overflow: hidden;
 }
 
