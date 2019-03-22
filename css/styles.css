@@ -3,7 +3,7 @@
 ***************************************/
 
 * {
-  outline: 1px dotted grey;
+  outline: 0px dotted grey;
 }
 
 /**************************************
@@ -23,7 +23,7 @@ body {
   /* font-family: 'Cutive Mono', monospace; */
   font-family: 'Philosopher', sans-serif;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.4;
   color: #a7bdd3;
 }
 
@@ -151,6 +151,13 @@ body#contact a#contactnav {
   color: grey;
 }
 
+#contactintro {
+  max-width: 75%;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 30px auto 0 auto;
+}
+
 
 /**************************************
 *            ABOUT STYLES            *
@@ -173,6 +180,12 @@ body#contact a#contactnav {
 .aboutintro {
   max-width: 80%;
   margin-bottom: 30px;
+}
+
+#aboutphoto {
+  max-width: 25%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 
