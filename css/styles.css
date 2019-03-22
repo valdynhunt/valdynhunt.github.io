@@ -27,6 +27,20 @@ body {
   color: #a7bdd3;
 }
 
+
+/**************************************
+*            NAV STYLING              *
+***************************************/
+
+body#home a#homenav,
+body#about a#aboutnav,
+body#portfolio a#portfolionav,
+body#contact a#contactnav {
+	color: #a7bdd3;
+  border-bottom: 1px solid #a7bdd3;
+
+}
+
 /**************************************
 *        PORTFOLIO STYLING            *
 ***************************************/
@@ -39,9 +53,11 @@ body {
   background-color: black;
 }
 
-img.lg-object.lg-image {
+#portfolio img.lg-object.lg-image {
   border-radius: 1%;
   outline: 0;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 h1 {
@@ -98,16 +114,65 @@ nav {
   color: #a7bdd3;  /* or whatever */
 }
 
-
-body#home a#homenav,
-body#about a#aboutnav,
-body#portfolio a#portfolionav,
-body#contact a#contactnav {
-	color: #a7bdd3;
-  border-bottom: 1px solid #a7bdd3;
-
+main.grid section {
+  max-width: 150px;
+  max-height: 150px;
 }
 
+
+
+body {
+  padding: 2em;
+}
+
+section {
+  background: rosybrown;
+  margin: 1em;
+  width: 300px;
+}
+
+.grid section,
+.list section {
+  animation: jello .5s;
+}
+
+
+/* Default, Grid View Styling */
+.grid section h2,
+.grid section p {
+  display: none;
+}
+
+/* List View */
+.list section img {
+  display: none;
+}
+
+.list section {
+  width: 600px;
+}
+
+#portfolio img {
+  max-width: 150px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+
+/**************************************
+*          PORTFOLIO FILTER           *
+***************************************/
+
+#filter {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#filter button {
+  color: grey;
+}
 
 .photo {
   border: 2px solid cyan;
@@ -126,7 +191,6 @@ body#contact a#contactnav {
   transition: opacity .25s;
   position: absolute;
 }
-
 /**************************************
 *            FORM STYLES              *
 ***************************************/
@@ -157,6 +221,11 @@ body#contact a#contactnav {
   line-height: 1.5;
   margin: 30px auto 0 auto;
 }
+
+/* #contact {
+  background: url(/img/aaron-burden-64849-unsplash.jpg); 
+  background-size: cover;
+} */
 
 
 /**************************************
@@ -260,43 +329,6 @@ a.social-link svg {
 
 
 
-body {
-  padding: 2em;
-}
-
-section {
-  background: rosybrown;
-  margin: 1em;
-  width: 300px;
-}
-
-.grid section,
-.list section {
-  animation: jello .5s;
-}
-
-
-/* Default, Grid View Styling */
-.grid section h2,
-.grid section p {
-  display: none;
-}
-
-/* List View */
-.list section img {
-  display: none;
-}
-
-.list section {
-  width: 600px;
-}
-
-#portfolio img {
-  /* width: 150px; */
-  max-width: 100%;
-  height: auto;
-  overflow: hidden;
-}
 
 
 

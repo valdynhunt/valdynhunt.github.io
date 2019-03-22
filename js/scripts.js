@@ -119,6 +119,22 @@ $('#logo').click( function() {
   
 });
 
+// Click Design
+$('#logo').click( function() {
+ 
+  checkClass();
+  $('img:not(.design)').toggleClass('hide');
+
+});
+
+// Click Developer
+$('#logo').click( function() {
+ 
+  checkClass();
+  $('img:not(.dev)').toggleClass('hide');
+
+});
+
 // Show All 
 $('#all').click( function() {
   
