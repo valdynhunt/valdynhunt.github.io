@@ -3,7 +3,7 @@
 ***************************************/
 
 * {
-  outline: 0px dotted grey;
+  outline: 1px dotted grey;
 }
 
 /**************************************
@@ -85,6 +85,7 @@ ul {
 
 #nav {
   display: block;
+  clear: both;
 }
 
 nav {
@@ -107,6 +108,25 @@ body#contact a#contactnav {
 
 }
 
+
+.photo {
+  border: 2px solid cyan;
+}
+
+.illus {
+  border: 2px solid magenta;
+}
+
+.logo {
+ border: 2px solid yellow;
+}
+
+.hide {
+  opacity: 0;
+  transition: opacity .25s;
+  position: absolute;
+}
+
 /**************************************
 *            FORM STYLES              *
 ***************************************/
@@ -115,7 +135,7 @@ body#contact a#contactnav {
   max-width: 75%;
   display: block;
   text-align: left;
-  margin: 0 auto;
+  margin: 2em auto;
 }
 
 #contact form input, #contact form .input-group textarea, form input #submit {
@@ -259,9 +279,14 @@ section {
 }
 
 #portfolio img {
-  width: 150px;
+  /* width: 150px; */
+  max-width: 100%;
+  height: auto;
   overflow: hidden;
 }
+
+
+
 
 
 
