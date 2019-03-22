@@ -80,7 +80,7 @@ ul {
   min-width: 40px;
   text-align: center;
   font-size: 14px;
-  transition: color 1s;
+  transition: color 1s ease;
 }
 
 #nav {
@@ -138,15 +138,13 @@ text-area, input {
 
 .h1-text {
   display: inline-block;
-
-
-
 }
 
 
 /**************************************
 *            BUTTON STYLES            *
 ***************************************/
+
 .btn {
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -198,13 +196,12 @@ a.social-link svg {
   padding-right: 15px;
 }
 
-footer#footer {
+/* footer#footer {
   border-top: 1px solid white;
-}
+} */
 
-div.div-border {
-  width: 3px;
-  height: 30px;
+#footer .div-border {
+  height: 3px;
   max-width: 60%;
   margin-right: auto;
   margin-left: auto;
@@ -246,7 +243,7 @@ section {
   width: 600px;
 }
 
-.portfolio img {
+#portfolio img {
   width: 150px;
   overflow: hidden;
 }
