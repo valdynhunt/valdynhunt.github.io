@@ -111,15 +111,25 @@ body#contact a#contactnav {
 *            FORM STYLES              *
 ***************************************/
 
+#contact form {
+  max-width: 75%;
+  display: block;
+  text-align: left;
+  margin: 0 auto;
+}
+
+#contact form input, #contact form .input-group textarea, form input #submit {
+  display: block;
+  width: 100%;
+  color: grey;
+  margin: 0 0 1rem 0;
+  /* border-radius: 5%; */
+}
+
+
 #formcomment{
   color: grey;
 }
-
-text-area, input {
-  color: grey;
-  margin: 2%;
-  border-radius: 5%;
-} 
 
 
 /**************************************
@@ -138,6 +148,11 @@ text-area, input {
 
 .h1-text {
   display: inline-block;
+}
+
+.aboutintro {
+  max-width: 80%;
+  margin-bottom: 30px;
 }
 
 
