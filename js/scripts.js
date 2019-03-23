@@ -120,7 +120,7 @@ $('#logo').click( function() {
 });
 
 // Click Design
-$('#logo').click( function() {
+$('#design').click( function() {
  
   checkClass();
   $('img:not(.design)').toggleClass('hide');
@@ -128,7 +128,7 @@ $('#logo').click( function() {
 });
 
 // Click Developer
-$('#logo').click( function() {
+$('#dev').click( function() {
  
   checkClass();
   $('img:not(.dev)').toggleClass('hide');
