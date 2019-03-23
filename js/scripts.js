@@ -1,8 +1,15 @@
 // Everything OK?
 console.log('OK');
 
-
 // Light Gallery
+$('#gallery-0').lightGallery({
+  thumbnail: false,
+  share: false,
+  download: false,
+  mode: 'lg-tube',
+  speed: 300
+});
+
 $('#gallery-1').lightGallery({
     thumbnail: false,
     share: false,
@@ -82,7 +89,6 @@ $('#list').click( function(){
 // List View
 
 
-
 var checkClass = function() {
   
   // Remove Existing Hide 
@@ -140,4 +146,10 @@ $('#all').click( function() {
   
   checkClass();
   
+});
+
+$('#portfolio').ready(function() {
+  console.log( "ready!" );
+  checkClass();
+  $('img:not(.focal)').toggleClass('hide');
 });
