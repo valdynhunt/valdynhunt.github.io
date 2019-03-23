@@ -423,11 +423,11 @@ a.social-link svg {
   margin: 0 auto;
 }
 
-#404 svg {
+#404svg {
   background-color: white;
   margin: 0 auto;
-  height: 20vh;
-  width: auto;
+  height: auto;
+  width: 300px;
 }
 
 
