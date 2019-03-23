@@ -424,8 +424,9 @@ a.social-link svg {
 }
 
 #404 svg {
+  background-color: white;
   margin: 0 auto;
-  height: 30vh;
+  height: 20vh;
   width: auto;
 }
 
