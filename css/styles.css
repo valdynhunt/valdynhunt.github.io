@@ -212,24 +212,43 @@ body {
   }
 }
 
+figure {
+  position: relative;
+}
+
+figure a {
+  background: rgba(0,  0,  255,  0.3);
+}
+
+figure:hover > a {
+  filter: blur(2px);
+  background: rgba(0,  0,  255,  0.8);
+  opacity: 0.8;
+}
+
+
 figcaption {
   opacity: 0;
   width: 100%;
   position: absolute;
 }
 
-figure {
-  background: rgba(0,  0,  255,  0.3);
+figcaption h3 {
+  color: white;
+  font-size: 2.1em;
+  text-align: center;
 }
 
-figure:hover {
-  /* filter: blur(3px); */
-  background: rgba(0,  0,  255,  0.8)
+figcaption h4 {
+  color: #a7bdd3;
+  font-size: 1.1em;
+  text-align: center;
 }
 
-figure:hover > figcaption{
+figure:hover > figcaption {
   opacity: 1;
 }
+
 
 /**************************************
 *          PORTFOLIO FILTER           *
