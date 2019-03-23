@@ -407,6 +407,8 @@ a.social-link svg {
 #404 h1 {
   margin-top: 60px;
   margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
   font-size: 5em;
 }
@@ -414,10 +416,16 @@ a.social-link svg {
 #404 h2 {
   text-align: center;
   font-size: 3em;
+  margin: 0 auto;
 }
 
 #404 a {
   text-align: center;
+  margin: 0 auto;
+}
+
+#404 img {
+  margin: 0 auto;
 }
 
 
