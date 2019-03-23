@@ -2,14 +2,6 @@
 console.log('OK');
 
 // Light Gallery
-$('#gallery-0').lightGallery({
-  thumbnail: false,
-  share: false,
-  download: false,
-  mode: 'lg-tube',
-  speed: 300
-});
-
 $('#gallery-1').lightGallery({
     thumbnail: false,
     share: false,
