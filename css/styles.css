@@ -404,11 +404,10 @@ a.social-link svg {
 *             404 STYLES              *
 ***************************************/
 
+#404 {
+  margin: 30px auto;
+}
 #404 h1 {
-  margin-top: 60px;
-  margin-bottom: 30px;
-  margin-right: auto;
-  margin-left: auto;
   text-align: center;
   font-size: 5em;
 }
