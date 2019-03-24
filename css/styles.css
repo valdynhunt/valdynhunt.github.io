@@ -218,6 +218,7 @@ figure {
 
 figure a {
   background: rgba(0,  0,  255,  0.3);
+  width: 100%;
 }
 
 figure:hover > a {
@@ -231,11 +232,12 @@ figcaption {
   opacity: 0;
   width: 100%;
   position: absolute;
+  line-height: 30px;
 }
 
 figcaption h3 {
   color: white;
-  font-size: 2.1em;
+  font-size: 1.8em;
   text-align: center;
 }
 
