@@ -485,8 +485,7 @@ a.social-link svg {
   nav {
     width: 100%;
     float: left;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px auto 20px auto;
   }
 
   #nav li {
