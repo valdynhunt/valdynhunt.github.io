@@ -237,36 +237,6 @@ div h4 {
 }
 
 /**************************************
-*          PORTFOLIO FILTER           *
-***************************************/
-
-#filter {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-#filter button {
-  color: grey;
-}
-
-/* .photo {
-  border: 2px solid cyan;
-}
-
-.illus {
-  border: 2px solid magenta;
-}
-
-.logo {
- border: 2px solid yellow;
-} */
-
-.hide {
-  opacity: 0;
-  transition: opacity .25s;
-  position: absolute;
-}
-/**************************************
 *            FORM STYLES              *
 ***************************************/
 
@@ -480,9 +450,9 @@ a.social-link svg {
   }
 
   #nav li {
-    padding: 10px;
-    min-width: 32px;
-    font-size: 16px;
+    padding: 8px;
+    min-width: 28px;
+    font-size: 15px;
   }
 
   #aboutphoto {
@@ -509,11 +479,20 @@ a.social-link svg {
 
 @media (max-width: 500px) {
   body {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
   }
   nav {
     width: 100%;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #nav li {
+    padding: 5px;
+    min-width: 25px;
+    font-size: 14px;
   }
 
   #aboutphoto {
