@@ -462,23 +462,59 @@ a.social-link svg {
 
 
 /**************************************
-*                HOME                 *
-***************************************/
-
-
-
-
-/**************************************
 *                RWD                  *
 ***************************************/
 
 @media (max-width: 900px) {
+  body {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 
+  h1 {
+    font-size: 1.5em;
+  }
+
+  #nav li {
+    padding: 8px;
+    min-width: 28px;
+    font-size: 12px;
+  }
+
+  #aboutphoto {
+    max-width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .aboutintro {
+    max-width: 90%;
+  }
+
+  #contactintro {
+    max-width: 85%;
+    font-size: 14px;
+    line-height: 1.3;
+  }
+
+  #contact form {
+    max-width: 85%;
+  }
 
 }
 
 @media (max-width: 500px) {
+  body {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  nav {
+    width: 100%;
+  }
 
+  #aboutphoto {
+    max-width: 50%;
+  }
 
 }
 
@@ -486,7 +522,10 @@ a.social-link svg {
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 568px) {
-
+    body {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
 
 }
 
@@ -498,7 +537,10 @@ a.social-link svg {
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-
+    body {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
 
 }
 
@@ -508,7 +550,10 @@ a.social-link svg {
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-
+    body {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
 
 }
 
@@ -519,7 +564,10 @@ a.social-link svg {
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
-
+    body {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
 
 }
 
@@ -530,7 +578,10 @@ a.social-link svg {
   and (min-device-width: 768px) 
   and (max-device-width: 1112px) 
   and (-webkit-min-device-pixel-ratio: 2) {
-
+    body {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
 
 }
 
