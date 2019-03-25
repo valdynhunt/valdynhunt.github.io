@@ -471,14 +471,18 @@ a.social-link svg {
     margin-right: 5%;
   }
 
+  nav {
+    width: 100%;
+  }
+
   h1 {
     font-size: 1.5em;
   }
 
   #nav li {
-    padding: 8px;
-    min-width: 28px;
-    font-size: 12px;
+    padding: 10px;
+    min-width: 32px;
+    font-size: 16px;
   }
 
   #aboutphoto {
